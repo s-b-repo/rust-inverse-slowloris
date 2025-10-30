@@ -1,4 +1,4 @@
-# drip-client  
+# Inverse slow loris drip-client  
 **Lightweight, single-binary inverse-Slow-Loris traffic generator written in Rust.**
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)  
