@@ -10,7 +10,7 @@ use tokio::io::AsyncWriteExt;
 #[command(author, version, about = "Inverse-Slow-Loris traffic generator", long_about = None)]
 struct Args {
     /// Target host
-    #[arg(short, long, default_value = "127.0.0.1")]
+    #[arg(short = 't', long, default_value = "127.0.0.1")]
     host: String,
 
     /// Target port
