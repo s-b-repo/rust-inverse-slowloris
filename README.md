@@ -42,7 +42,7 @@ from a single 200 kB binary while staying under 1 GB of RAM.
 
 ## Quick start
 
-Pre-built binaries (Linux x86-64) are attached to every GitHub release.  
+
 If you have Rust ≥ 1.70 installed, build yourself in 15 s:
 
 ```
