@@ -79,6 +79,10 @@ drip-client --clients 100000 --rps 10 --port 443
 
 # IPv6
 drip-client -h ::1 -p 8080
+
+#debug
+RUST_BACKTRACE=1 cargo run -- -t example.com -p 8080 --clients 10 --rps 5
+
 ```
 
 ---
